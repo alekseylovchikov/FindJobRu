@@ -1,0 +1,14 @@
+<template name="nav">
+    <nav class="teal darken-1">
+        <div class="nav-wrapper container">
+            <a href="{{pathFor 'homeIndex'}}" class="brand-logo">FindJob.ru</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                {{#if currentUser}}
+                    <li><a href="{{pathFor 'addResume'}}">Разместить резюме</a></li>
+                    <li><a href="{{pathFor 'addVacancy'}}">Разместить вакансию</a></li>
+                {{/if}}
+                {{> loginButtons}}
+            </ul>
+        </div>
+    </nav>
+</template>

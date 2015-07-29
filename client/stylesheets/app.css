@@ -1,0 +1,26 @@
+body {
+    color: #383838;
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+#home-header h1 {
+    color: #1f5e5d;
+}
+
+.logo-color {
+    color: #ffe642;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #565656;
+}
+
+.vacancy-text p {
+    font-size: 22px;
+    padding-bottom: 10px;
+}

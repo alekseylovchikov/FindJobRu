@@ -1,0 +1,32 @@
+<template name="showVacancy">
+    <article class="container">
+        <div class="row flow-text">
+            <div class="col s12 m12">
+                <h2 class="center-align">{{firmName}}, {{jobName}}</h2>
+            </div>
+            <div class="col s12 m6">
+                <p><strong>Обязанности:</strong></p>
+                <p>{{about}}</p>
+                <p><strong>Требования:</strong></p>
+                <p>{{experience}}</p>
+                <p><strong>Условия:</strong></p>
+                <p>{{aboutJob}}</p>
+                <p><strong>Уровень зарплаты:</strong></p>
+                <p class="money">{{money}}</p>
+            </div>
+            <div class="col s12 m6">
+                <p><strong>Номер телефона:</strong></p>
+                <p>{{tel}}</p>
+                <p><strong>Email:</strong></p>
+                <p>{{email}}</p>
+            </div>
+            <div class="col s12 m12">
+                <p><strong>Дополнительная информация:</strong></p>
+                <p>{{more}}</p>
+            </div>
+            <div class="col s12 m12 card-panel teal lighten-5">
+                <p class="right">Дата и время размещения: {{date.toLocaleString}}</p>
+            </div>
+        </div>
+    </article>
+</template>

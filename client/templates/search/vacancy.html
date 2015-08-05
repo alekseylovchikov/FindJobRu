@@ -1,0 +1,9 @@
+<template name="searchVacancy">
+    {{> esInput index="vacancy" placeholder="Поиск вакансий..." }}
+
+    <ul class="collection">
+        {{#esEach index="vacancy"}}
+            <li class="collection-item left-align"><h5><span class="grey-text">{{firmName}}</span> <a href="{{pathFor 'showVacancy'}}">{{jobName}}</a></h5><br />Дата размещения - <span class="grey-text">{{date.toLocaleString}}</span></li>
+        {{/esEach}}
+    </ul>
+</template>

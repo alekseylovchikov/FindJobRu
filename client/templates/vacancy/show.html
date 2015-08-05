@@ -1,32 +1,56 @@
 <template name="showVacancy">
-    <article class="container">
-        <div class="row flow-text">
-            <div class="col s12 m12">
-                <h2 class="center-align">{{firmName}}, {{jobName}}</h2>
-            </div>
-            <div class="col s12 m6">
-                <p><strong>Обязанности:</strong></p>
-                <p>{{about}}</p>
-                <p><strong>Требования:</strong></p>
-                <p>{{experience}}</p>
-                <p><strong>Условия:</strong></p>
-                <p>{{aboutJob}}</p>
-                <p><strong>Уровень зарплаты:</strong></p>
-                <p class="money">{{money}}</p>
-            </div>
-            <div class="col s12 m6">
-                <p><strong>Номер телефона:</strong></p>
-                <p>{{tel}}</p>
-                <p><strong>Email:</strong></p>
-                <p>{{email}}</p>
-            </div>
-            <div class="col s12 m12">
-                <p><strong>Дополнительная информация:</strong></p>
-                <p>{{more}}</p>
-            </div>
-            <div class="col s12 m12 card-panel teal lighten-5">
-                <p class="right">Дата и время размещения: {{date.toLocaleString}}</p>
+    <div class="container">
+        <div class="resume">
+            <header class="page-header">
+                <h3 class="page-title">Вакансия: {{jobName}}<br />{{firmName}}</h3>
+                <small> <i class="fa fa-clock-o"></i> Последнее обновление: <time>{{date.toLocaleString}}</time></small>
+            </header>
+            <div class="row flow-text">
+                <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                    <div class="panel panel-default">
+                        <div class="bs-callout bs-callout-danger">
+                            <div class="panel-heading resume-heading">
+                                <h4>Основная информация:</h4>
+                                <p>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Работодатель: {{firmName}}</li>
+                                        <li class="list-group-item">Вакансия: {{jobName}}</li>
+                                        <li class="list-group-item">Уровень зарплаты: {{money}}</li>
+                                        <li class="list-group-item"><i class="fa fa-phone"></i> +7 {{tel}} </li>
+                                        <li class="list-group-item"><i class="fa fa-envelope"></i> {{email}}</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bs-callout bs-callout-danger">
+                            <h4>Обязанности:</h4>
+                            <p>{{about}}</p>
+                        </div>
+
+                        <div class="bs-callout bs-callout-danger">
+                            <h4>Требования</h4>
+                            <p>{{experience}}</p>
+                        </div>
+
+                        <div class="bs-callout bs-callout-danger">
+                            <h4>Условия:</h4>
+                            <p>{{aboutJob}}</p>
+                        </div>
+
+                        <div class="bs-callout bs-callout-danger">
+                            <h4>Уровень зарплаты:</h4>
+                            <p class="money">{{money}}</p>
+                        </div>
+
+                        <div class="bs-callout bs-callout-danger">
+                            <h4>Дополнительная информация:</h4>
+                            <p>{{more}}</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </article>
+    </div>
 </template>

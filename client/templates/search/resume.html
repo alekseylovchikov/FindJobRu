@@ -1,0 +1,9 @@
+<template name="searchResume">
+    {{> esInput index="resume" placeholder="Поиск резюме..." }}
+
+    <ul class="collection">
+        {{#esEach index="resume"}}
+            <li class="collection-item right-align"><h5><a href="{{pathFor 'showResume'}}">{{jobName}}</a></h5><br />Дата размещения - <span class="grey-text">{{date.toLocaleString}}</span></li>
+        {{/esEach}}
+    </ul>
+</template>

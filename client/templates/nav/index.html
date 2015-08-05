@@ -1,13 +1,17 @@
 <template name="nav">
     <nav class="teal darken-1">
         <div class="nav-wrapper container">
-            <a href="{{pathFor 'homeIndex'}}" class="brand-logo">FindJob.ru</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="{{pathFor 'homeIndex'}}" class="brand-logo">FindJobRu</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down main-nav">
                 {{#if currentUser}}
-                    <li><a href="{{pathFor 'addResume'}}">Разместить резюме</a></li>
-                    <li><a href="{{pathFor 'addVacancy'}}">Разместить вакансию</a></li>
+                    <li><a href="{{pathFor 'login'}}">Профиль</a></li>
+                    <li><a href="#" class="logout">Выйти</a></li>
+                {{else}}
+                    <li><a href="{{pathFor 'login'}}">Войти</a></li>
+                    <li><a href="{{pathFor 'reg'}}">Регистрация</a></li>
                 {{/if}}
-                {{> loginButtons}}
+                <li><a href="{{pathFor 'addResume'}}">Разместить резюме</a></li>
+                <li><a href="{{pathFor 'addVacancy'}}">Разместить вакансию</a></li>
             </ul>
         </div>
     </nav>

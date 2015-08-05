@@ -1,26 +1,55 @@
 body {
     color: #383838;
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 #home-header h1 {
-    color: #1f5e5d;
+    color: #fff;
+    background-color: #45c5ab;
+    padding: 15px;
+    border-radius: 50px;
 }
 
 .logo-color {
     color: #ffe642;
 }
 
-a {
+.vacancy-text p {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.parallax-container {
+    height: 160px;
+}
+
+.parallax img {
+    display: block; transform: translate3d(-50%, 143px, 0px);
+}
+
+.main-nav li a {
     text-decoration: none;
+}
+
+.main-nav {
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    color: #fff;
 }
 
 a:hover {
     text-decoration: none;
-    color: #565656;
 }
 
-.vacancy-text p {
-    font-size: 22px;
-    padding-bottom: 10px;
+.ball-grid-pulse {
+    background: orange;
 }

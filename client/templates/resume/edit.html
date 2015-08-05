@@ -1,0 +1,45 @@
+<template name="editResume">
+    <div class="container">
+        <h4 class="center-align">Редактирование резюме</h4>
+        {{#if currentUser}}
+            <form class="editResume">
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="alert text-center"></h4>
+                    </div>
+                    <div class="col s6">
+                        <h5>ФИО <span class="red-text">*</span></h5>
+                        <input type="text" id="full_name" name="full_name" placeholder="Иванов Иван Иванович" data-onblur data-required value="{{fullName}}" />
+                        <h5>Дата рождения <span class="red-text">*</span></h5>
+                        <input type="date" id="birth_date" name="birth_date" placeholder="01.01.1990" data-onblur data-required value="{{birthDate}}" />
+                        <h5>Образование <span class="red-text">*</span></h5>
+                        <input type="text" id="education" name="education" placeholder="Высшее (МГУ) Математический факультет" value="{{education}}" />
+                        <h5>Опыт работы <span class="red-text">*</span></h5>
+                        <textarea class="materialize-textarea" name="experience" id="experience" cols="30" rows="10" placeholder="Опишите подробно свой опыт" value="{{experience}}"></textarea>
+                        <h5>Ваши навыки <span class="red-text">*</span></h5>
+                        <textarea class="materialize-textarea" name="about" id="about" cols="30" rows="10" placeholder="Опишите ваши навыки" value="{{about}}"></textarea>
+                    </div>
+                    <div class="col s6">
+                        <h5>Желаемая должность <span class="red-text">*</span></h5>
+                        <input type="text" id="job_name" name="job_name" placeholder="Дизайнер" value="{{jobName}}" />
+                        <h5>Желаемый уровень зарплаты</h5>
+                        <input type="text" id="job_money" name="job_money" placeholder="50 000 рублей" value="{{jobMoney}}" />
+                        <h5>Номер телефона <span class="red-text">*</span></h5>
+                        <input type="tel" maxlength="10" id="tel" name="tel" placeholder="9101234567" data-onblur data-min=10 data-max=10 value="{{tel}}" />
+                        <h5>Email</h5>
+                        <input type="email" id="email" name="email" placeholder="contact@ivan.com" data-onblur data-email value="{{email}}" />
+                        <h5>Дополнительная информация</h5>
+                        <textarea class="materialize-textarea" name="more" id="more" cols="30" rows="10" placeholder="Укажите здесь все, что вы считаете необходимым" value="{{more}}"></textarea>
+                    </div>
+                    <div class="col s12 center-align">
+                        <button id="saveResume" class="waves-light waves-effect btn" type="submit">Сохранить</button>
+                    </div>
+                </div>
+            </form>
+        {{else}}
+            <div class="col s12">
+                <h4 class="center-align">Для редактирования вакансии<br /><a href="{{pathFor 'login'}}">войдите</a></h4>
+            </div>
+        {{/if}}
+    </div>
+</template>

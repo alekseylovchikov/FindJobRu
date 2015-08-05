@@ -4,5 +4,11 @@ Template.homeIndex.helpers({
     },
     vacancy: function() {
         return Vacancy.findAllVacancy();
+    },
+    lastResume: function() {
+        return Resume.findLastResume();
+    },
+    lastVacancy: function() {
+        return Vacancy.findLastVacancy();
     }
 });

@@ -5,7 +5,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 iron:router
 ian:accounts-ui-bootstrap-3
@@ -13,4 +12,14 @@ alanning:roles
 accounts-facebook
 accounts-google
 accounts-password
+matteodem:easy-search
+materialize:materialize
+meteorhacks:fast-render
+useraccounts:materialize
+softwarerero:accounts-t9n
 twbs:bootstrap
+copleykj:mesosphere
+rgoomar:bootstrap-validator
+skinnygeek1010:validate-form
+sacha:spin
+email

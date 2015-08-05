@@ -1,0 +1,41 @@
+<template name="editVacancy">
+    <div class="container">
+        <h3 class="center-align">Редактирование вакансии</h3>
+        <h3 class="alert center-align"></h3>
+        {{#if currentUser}}
+            <form id="editVacancy">
+                <div class="row">
+                    <div class="col s6">
+                        <h5>Название организации <span class="red-text">*</span></h5>
+                        <input type="text" id="firm_name" name="firm_name" placeholder="ИП Иванов" value="{{firmName}}" />
+                        <h5>Название вакансии <span class="red-text">*</span></h5>
+                        <input type="text" id="job_name" name="job_name" placeholder="Программист" value="{{jobName}}" />
+                        <h5>Требования <span class="red-text">*</span></h5>
+                        <textarea class="materialize-textarea" name="experience" id="experience" cols="30" rows="10" placeholder="Ваши требования для данной вакансии" value="{{experience}}"></textarea>
+                        <h5>Обязанности <span class="red-text">*</span></h5>
+                        <textarea class="materialize-textarea" name="about" id="about" cols="30" rows="10" placeholder="Обязанности данной вакансии" value="{{about}}"></textarea>
+                        <h5>Условия <span class="red-text">*</span></h5>
+                        <textarea class="materialize-textarea" name="aboutJob" id="aboutJob" cols="30" rows="30" placeholder="Опишите ваши условия" value="{{aboutJob}}"></textarea>
+                    </div>
+                    <div class="col s6">
+                        <h5>Номер телефона <span class="red-text">*</span></h5>
+                        <input type="tel" maxlength="10" id="tel" name="tel" placeholder="9101234567" value="{{tel}}" />
+                        <h5>Email <span class="red-text">*</span></h5>
+                        <input type="email" id="email" name="email" placeholder="contact@ivan.com" value="{{email}}" />
+                        <h5>Зарплата <span class="red-text">*</span></h5>
+                        <input type="text" name="money" id="money" placeholder="от 20 000 рублей" value="{{money}}" />
+                        <h5>Дополнительная информация</h5>
+                        <textarea class="materialize-textarea" name="more" id="more" cols="30" rows="10" placeholder="Укажите здесь все, что вы считаете необходимым" value="{{more}}"></textarea>
+                    </div>
+                    <div class="col s12 center-align">
+                        <button id="editV" class="waves-light waves-effect btn" type="submit">Сохранить</button>
+                    </div>
+                </div>
+            </form>
+        {{else}}
+            <div class="col s12">
+                <h4 class="center-align">Для редактирования резюме<br /><a href="{{pathFor 'login'}}">войдите</a></h4>
+            </div>
+        {{/if}}
+    </div>
+</template>

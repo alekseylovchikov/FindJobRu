@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/client/config/accounts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/app/404.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/app/loading.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/login/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/login/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/login/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/resume/edit.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/templates/resume/index.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/templates/resume/index.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/client/templates/resume/resume.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/templates/resume/show.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/search/resume.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/search/vacancy.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/vacancy/edit.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/templates/vacancy/index.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/templates/vacancy/show.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/collections/vacancy.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/router.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/methods.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/publish.js" charset="UTF-8" />
   </component>
 </project>

@@ -1,41 +1,34 @@
 <template name="homeIndex">
     <div class="parallax-container">
-        <div class="parallax">
-            <img src="/images/back.jpg" align="" />
-        </div>
+        <div class="parallax"><img src="/images/back.jpg" /></div>
         <header id="home-header" class="container">
-            <h1 class="center-align">Найди работу на Find<span class="logo-color">Job.ru</span></h1>
+            <h1 class="center-align z-depth-5">Find<span class="logo-color">JobRu</span></h1>
         </header>
     </div>
 	<article class="container">
-        <div class="row">
+        <div class="row" style="height: 400px;">
             <form class="col s12" method="post">
                 <div class="input-field center-align">
                     <div class="row">
                         <div class="col s6">
-                            <input type="text" id="search" class="validate" placeholder="Поиск" />
+                            <h3>Поиск вакансий</h3>
+                            {{> searchVacancy}}
                         </div>
-                        <div class="input-field col s6">
-                            <select name="searchId" id="searchId">
-                                <option value="">Выберите, что искать</option>
-                                <option value="job">Работу</option>
-                                <option value="resume">Резюме</option>
-                            </select>
-                            <label for="searchId">Что искать?</label>
+                        <div class="col s6">
+                            <h3>Поиск резюме</h3>
+                            {{> searchResume}}
                         </div>
                     </div>
-                    <button type="submit" class="waves-effect waves-light btn">Найти <i class="small material-icons right">search</i></button>
                 </div>
             </form>
         </div>
-
         <div class="row">
             <div class="col s6">
                 <h4>Последние вакансии</h4>
                 <div>
                     <div class="collection">
-                        {{#each vacancy}}
-                            <a href="{{pathFor 'showVacancy'}}" class="collection-item">{{jobName}}<span class="grey-text right">{{date.toLocaleString}}</span></a>
+                        {{#each lastVacancy}}
+                            <a href="{{pathFor 'showVacancy'}}" class="collection-item"><span class="grey-text">{{firmName}}</span><br />{{jobName}}<span class="grey-text right">{{date.toLocaleString}}</span></a>
                         {{/each}}
                     </div>
                 </div>
@@ -43,7 +36,7 @@
             <div class="col s6">
                 <h4 class="right-align">Последние резюме</h4>
                 <div class="collection">
-                    {{#each resume}}
+                    {{#each lastResume}}
                         <a href="{{pathFor 'showResume'}}" class="collection-item">{{jobName}}<span class="grey-text right">{{date.toLocaleString}}</span></a>
                     {{/each}}
                 </div>

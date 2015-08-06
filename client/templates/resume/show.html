@@ -2,7 +2,7 @@
     <div class="container">
         <div class="resume">
             <header class="page-header">
-                <h3 class="page-title">Резюме: {{fullName}}<br />{{jobName}}</h3>
+                <h4 class="page-title">Резюме: {{fullName}}<br />{{jobName}}</h4>
                 <small> <i class="fa fa-clock-o"></i> Последнее обновление: <time>{{date.toLocaleString}}</time></small>
             </header>
             <div class="row flow-text">
@@ -11,38 +11,33 @@
                         <div class="bs-callout bs-callout-danger">
                             <h4>Основная информация:</h4>
                             <p>
-                                <ul class="list-group">
-                                    <li class="list-group-item">Полное имя: {{fullName}}</li>
-                                    <li class="list-group-item">Дата рождения: {{birthDate}}</li>
-                                    <li class="list-group-item">Желаемая должность: {{jobName}}</li>
-                                    <li class="list-group-item">Желаемый уровень зарплаты: {{jobMoney}}</li>
-                                    <li class="list-group-item"><i class="fa fa-phone"></i> +7 {{tel}} </li>
-                                    <li class="list-group-item"><i class="fa fa-envelope"></i> {{email}}</li>
-                                </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item">Полное имя: {{fullName}}</li>
+                                <li class="list-group-item">Дата рождения: {{birthDate}}</li>
+                                <li class="list-group-item">Желаемая должность: {{jobName}}</li>
+                                <li class="list-group-item">Желаемый уровень зарплаты: {{jobMoney}}</li>
+                                <li class="list-group-item"><i class="fa fa-phone"></i> +7 {{tel}} </li>
+                                <li class="list-group-item"><i class="fa fa-envelope"></i> {{email}}</li>
+                            </ul>
                             </p>
                         </div>
-
                         <div class="bs-callout bs-callout-danger">
                             <h4>Образование:</h4>
                             <p>{{education}}</p>
                         </div>
-
                         <div class="bs-callout bs-callout-danger">
                             <h4>Опыт работы:</h4>
                             <p>{{experience}}</p>
                         </div>
-
                         <div class="bs-callout bs-callout-danger">
                             <h4>Навыки:</h4>
                             <p>{{about}}</p>
                         </div>
-
                         <div class="bs-callout bs-callout-danger">
                             <h4>Дополнительная информация:</h4>
                             <p>{{more}}</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

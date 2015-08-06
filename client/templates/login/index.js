@@ -18,7 +18,7 @@ Template.reg.events({
             $('#send-mail').addClass('alert-warning');
             $('#send-mail').text('На ваш email отправлено письмо.');
 
-            var messageText = "Вы зарегестрировались на сайте FindJobRu." + "\nВаш login: " + email + "\nПароль: " + password;
+            var messageText = "Вы зарегистрировались на сайте FindJobRu." + "\nВаш login: " + email + "\nПароль: " + password;
 
             // SEND EMAIL
             Meteor.call('sendEmail',

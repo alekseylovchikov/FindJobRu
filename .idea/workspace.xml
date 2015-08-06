@@ -2,52 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bc2145e-c94f-42a8-90ec-313c1085acb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/analytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/chatra.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/resume/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/vacancy/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/done/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/login/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/nav/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/login/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/navCollapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/parallax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/publish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/resume.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/search/resume.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/config/spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/t9n/translate.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/search/vacancy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/config/validate.js" />
-      <change type="DELETED" beforePath="C:\code\meteor\FindJobRu\client\scripts\materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\meteor\FindJobRu\client\stylesheets\materialize.min.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/forgot/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/forgot/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/material.js" />
+      <change type="DELETED" beforePath="C:\code\meteor\FindJobRu\client\compatibility\navCollapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\meteor\FindJobRu\client\compatibility\parallax.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/back.jpg" afterPath="$PROJECT_DIR$/public/images/back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/app/404.html" afterPath="$PROJECT_DIR$/client/templates/app/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/config/accounts.js" afterPath="$PROJECT_DIR$/client/config/accounts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/app.css" afterPath="$PROJECT_DIR$/client/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/footer/index.html" afterPath="$PROJECT_DIR$/client/templates/footer/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/index.html" afterPath="$PROJECT_DIR$/client/templates/home/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/login/index.html" afterPath="$PROJECT_DIR$/client/templates/login/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/nav/index.html" afterPath="$PROJECT_DIR$/client/templates/nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/resume/index.html" afterPath="$PROJECT_DIR$/client/templates/resume/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/vacancy/index.html" afterPath="$PROJECT_DIR$/client/templates/vacancy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/index.js" afterPath="$PROJECT_DIR$/client/templates/home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/resume/index.js" afterPath="$PROJECT_DIR$/client/templates/resume/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/vacancy/index.js" afterPath="$PROJECT_DIR$/client/templates/vacancy/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/app/loading.html" afterPath="$PROJECT_DIR$/client/templates/app/loading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/resume.js" afterPath="$PROJECT_DIR$/lib/collections/resume.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/login/index.js" afterPath="$PROJECT_DIR$/client/templates/login/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/login/login.html" afterPath="$PROJECT_DIR$/client/templates/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/resume/show.html" afterPath="$PROJECT_DIR$/client/templates/resume/show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/vacancy/show.html" afterPath="$PROJECT_DIR$/client/templates/vacancy/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/vacancy.js" afterPath="$PROJECT_DIR$/lib/collections/vacancy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="findjob.ru.iws" />
@@ -68,28 +38,7 @@
     <favorites_list name="findjob.ru" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/stylesheets/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5830546">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,17 +46,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/templates/resume/create.html" />
-        <option value="$PROJECT_DIR$/client/templates/resume/resume.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/client/stylesheets/materialize.min.css" />
         <option value="$PROJECT_DIR$/client/templates/search/index.html" />
         <option value="$PROJECT_DIR$/client/subscribe.js" />
         <option value="$PROJECT_DIR$/client/templates/search/vacancy.html" />
         <option value="$PROJECT_DIR$/client/templates/search/resume.html" />
         <option value="$PROJECT_DIR$/client/stylesheets/resume.css" />
-        <option value="$PROJECT_DIR$/client/templates/vacancy/show.html" />
-        <option value="$PROJECT_DIR$/client/templates/resume/show.html" />
         <option value="$PROJECT_DIR$/server/publish.js" />
         <option value="$PROJECT_DIR$/lib/collections/resume.js" />
         <option value="$PROJECT_DIR$/lib/collections/vacancy.js" />
@@ -119,7 +62,6 @@
         <option value="$PROJECT_DIR$/client/templates/nav/signin.html" />
         <option value="$PROJECT_DIR$/client/templates/sign/signin.html" />
         <option value="$PROJECT_DIR$/client/templates/sign/signup.html" />
-        <option value="$PROJECT_DIR$/client/templates/footer/index.html" />
         <option value="$PROJECT_DIR$/client/templates/profile/index.js" />
         <option value="$PROJECT_DIR$/client/templates/done/index.html" />
         <option value="$PROJECT_DIR$/client/templates/logout/index.html" />
@@ -132,22 +74,29 @@
         <option value="$PROJECT_DIR$/client/config/accounts.js" />
         <option value="$PROJECT_DIR$/client/templates/vacancy/index.html" />
         <option value="$PROJECT_DIR$/client/templates/app/404.html" />
-        <option value="$PROJECT_DIR$/client/compatibility/navCollapse.js" />
         <option value="$PROJECT_DIR$/client/templates/resume/index.html" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/client/templates/resume/edit.html" />
         <option value="$PROJECT_DIR$/client/templates/vacancy/edit.html" />
-        <option value="$PROJECT_DIR$/client/templates/vacancy/index.js" />
         <option value="$PROJECT_DIR$/client/templates/resume/index.js" />
-        <option value="$PROJECT_DIR$/client/templates/login/login.html" />
         <option value="$PROJECT_DIR$/server/mail.js" />
         <option value="$PROJECT_DIR$/server/methods.js" />
-        <option value="$PROJECT_DIR$/client/templates/login/index.html" />
-        <option value="$PROJECT_DIR$/client/templates/login/index.js" />
         <option value="$PROJECT_DIR$/client/templates/nav/index.html" />
         <option value="$PROJECT_DIR$/client/main.html" />
-        <option value="$PROJECT_DIR$/client/templates/home/index.html" />
         <option value="$PROJECT_DIR$/client/stylesheets/app.css" />
+        <option value="$PROJECT_DIR$/client/templates/login/index.js" />
+        <option value="$PROJECT_DIR$/lib/router.js" />
+        <option value="$PROJECT_DIR$/client/templates/forgot/index.js" />
+        <option value="$PROJECT_DIR$/client/templates/forgot/index.html" />
+        <option value="$PROJECT_DIR$/client/templates/login/index.html" />
+        <option value="$PROJECT_DIR$/client/compatibility/modal.js" />
+        <option value="$PROJECT_DIR$/client/compatibility/navCollapse.js" />
+        <option value="$PROJECT_DIR$/client/compatibility/material.js" />
+        <option value="$PROJECT_DIR$/client/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/client/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/client/templates/footer/index.html" />
+        <option value="$PROJECT_DIR$/client/templates/resume/show.html" />
+        <option value="$PROJECT_DIR$/client/templates/vacancy/show.html" />
+        <option value="$PROJECT_DIR$/client/templates/vacancy/index.js" />
       </list>
     </option>
   </component>
@@ -187,8 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,21 +164,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="findjob.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindJobRu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,6 +179,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vacancy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,30 +226,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="findjob.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindJobRu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="footer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,9 +304,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18387777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18387777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,34 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/templates/vacancy/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/vacancy/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -541,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/vacancy/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="24" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -569,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/compatibility/parallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/compatibility/chatra.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20870535">
@@ -594,13 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/footer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -632,14 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/resume/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13203214">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/publish.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -651,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26532888">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,14 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.078071184">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/compatibility/navCollapse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -703,14 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/resume/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7807118">
@@ -723,48 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70264065">
           <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/vacancy/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79152733">
-          <caret line="169" column="56" selection-start-line="169" selection-start-column="56" selection-end-line="169" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/resume/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46934226">
-          <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/login/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -793,18 +601,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/index.html">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.css">
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5830546">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/resume/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/forgot/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/forgot/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/compatibility/loaders.css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27324915">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/compatibility/material.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.303233">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8392652">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/footer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/resume/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4293915">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/vacancy/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22296543">
+          <caret line="139" column="6" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/vacancy/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35132033">
+          <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
           <folding />
         </state>
       </provider>

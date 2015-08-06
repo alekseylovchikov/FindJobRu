@@ -12,9 +12,6 @@ main {
 
 #home-header h1 {
     color: #fff;
-    background-color: #45c5ab;
-    padding: 15px;
-    border-radius: 50px;
 }
 
 .logo-color {
@@ -27,7 +24,7 @@ main {
 }
 
 .parallax-container {
-    height: 160px;
+    height: 140px;
 }
 
 .parallax img {
